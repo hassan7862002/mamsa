@@ -153,3 +153,4 @@ yarl==1.9.2
 zipp @ file:///home/conda/feedstock_root/build_artifacts/zipp_1695255097490/work
 streamlit-chat
 openai
+Bio
