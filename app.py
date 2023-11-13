@@ -1,8 +1,5 @@
 import streamlit as st
-# from streamlit_chat import message
-# import openai
-# import datetime
-from blog_utils import *
+from utilities import *
 
 st.set_page_config(
     page_title="Mamsa",
