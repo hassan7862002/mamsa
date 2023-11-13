@@ -1,12 +1,23 @@
 import streamlit as st
 from utilities import *
+import openai
+import streamlit as st
+from Bio import Entrez
+import logging
+from functools import wraps 
+import random
+from datetime import datetime
+
 
 st.set_page_config(
     page_title="Mamsa",
     page_icon="🐥"
 )
 
-
+openapi_key = st.secrets["OPENAI_API_KEY"]
+openai.api_key = openapi_key
+PUBMED_API_KEY=st.secrets["PUBMED_API_KEY"]
+Entrez.email=st.secrets["email"]
 
 if 'title' not in st.session_state:
     st.session_state['title'] = []
