@@ -151,4 +151,4 @@ websockets==10.4
 wsproto==1.2.0
 yarl==1.9.2
 zipp @ file:///home/conda/feedstock_root/build_artifacts/zipp_1695255097490/work
-streamlit_chat
+streamlit-chat
